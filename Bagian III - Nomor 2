@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import cv2
+import matplotlib.image as mpimg
+
+from skimage.io import imread
+from skimage.color import rgb2lab, lab2rgb
+from skimage.color import rgb2gray
+import matplotlib.pylab as plt
+from scipy.ndimage.filters import convolve
+
+img = imread('ayon.jpeg')
+
+grayscale = rgb2gray(img)
+
+fig, axes = plt.subplots(1, 2, figsize=(8, 4))
+ax = axes.ravel()
+
+ax[0].imshow(img)
+ax[0].set_title("Original")
+ax[1].imshow(grayscale, cmap=plt.cm.gray)
+ax[1].set_title("Grayscale")
+
+fig.tight_layout()
+plt.show()
