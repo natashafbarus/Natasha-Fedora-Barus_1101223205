@@ -1,0 +1,16 @@
+import cv2
+import matplotlib.pyplot as plt
+
+warna = cv2.imread('ayon.jpeg')
+plt.imshow(warna)
+
+warna = cv2.imread('ayon.jpeg')
+coloran=cv2.cvtColor(warna, cv2.COLOR_BGR2LAB)
+plt.imshow(coloran)
+
+img_bgr=cv2.cvtColor(warna, cv2.COLOR_BGR2RGB)
+plt.imshow(img_bgr)
+
+img_gray=cv2.cvtColor(warna, cv2.COLOR_RGB2GRAY)
+plt.imshow(img_gray)
+
