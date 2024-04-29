@@ -1,0 +1,26 @@
+# Natasha-Fedora-Barus_1101223205
+
+""""
+# NO 1
+# EXAMPLES
+
+# Input
+Masukkan angka : 68
+# Expected result
+Angka 68 adalah bilangan genap
+
+# Input
+Masukkan angka : 21
+# Expected result
+Angka 21 adalah bilangan ganjil
+"""
+
+print("="*10)
+print("Input".center(10))
+print("="*10)
+angka = int(input("Masukkan angka yang ingin diperiksa : "))
+if angka%2 == 0 :
+    print(f"Angka {angka} tersebut merupakan angka GENAP")
+else :
+    print(f"Angka {angka} tersebut merupakan angka GANJIL")
+
