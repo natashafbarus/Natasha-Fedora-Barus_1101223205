@@ -1,0 +1,19 @@
+print("="*10)
+print("Input".center(10))
+print("="*10)
+pertama = str(input("Masukkan kata pertama : "))
+kedua = str(input("Masukkan kata kedua : "))
+
+print(f"{pertama} dan {kedua} adalah anagram")
+
+import os
+os.system("pause")
+os.system("cls")
+
+print("="*10)
+print("Input".center(10))
+print("="*10)
+pertama = str(input("Masukkan kata pertama : "))
+kedua = str(input("Masukkan kata kedua : "))
+
+print(f"{pertama} dan {kedua} bukan anagram")
