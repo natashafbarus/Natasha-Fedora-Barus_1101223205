@@ -1,0 +1,6 @@
+spasi = 10
+sisi = 10
+i = 1
+for i in range (sisi):
+    print ("*".center(5)*i)
+    i += 1
