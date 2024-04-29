@@ -1,0 +1,9 @@
+from matplotlib import pyplot as plt #untuk import library
+from matplotlib import image as mpimg
+
+plt.xlabel("X =1800 pixel")
+plt.ylabel("Y =1800 pixels")
+ 
+image = mpimg.imread("ashlyn.jpg")
+plt.imshow(image)
+plt.show()
