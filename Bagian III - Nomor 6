@@ -1,0 +1,19 @@
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread("ponyo.jpg")
+resized = cv2.resize(img, (100,100), interpolation=cv2.INTER_LINEAR)
+
+plt.subplot(1,2,1)
+plt.title("default")
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img)
+
+plt.subplot(1,2,2)
+plt.title("Resized Inter Linear")
+plt.xticks([])
+plt.yticks([])
+plt.imshow(resized)
+
+plt.show()
