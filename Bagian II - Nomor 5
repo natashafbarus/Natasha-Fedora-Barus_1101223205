@@ -1,0 +1,8 @@
+import numpy as np
+A = np.array([1, 2, 3, 4, 5])
+B = np.array([1, 1, 1])
+
+elementwise_multiplication = A * B
+elementwise_addition = A + B
+elementwise_subtraction = A - B
+elementwise_division = A / B
