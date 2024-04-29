@@ -1,0 +1,24 @@
+"""
+# EXAMPLES
+
+# Input
+Masukkan angka : 377
+# Expected result
+Angka 377 merupakan angka fibonnaci
+
+# Input
+Masukkan angka : 9
+# Expected result
+Angka 9 bukan angka fibonnaci
+"""
+
+print("="*10)
+print("Input".center(10))
+print("="*10)
+n = int(input("Masukkan angka yang ingin diperiksa : "))
+Fibonacci = (n-1) + (n-2)
+if Fibonacci == (n-1) + (n-2) :
+    print(f"Angka {n} termasuk angka fibonnaci")
+else :
+    print(f"Angka {n} bukan termasuk angka fibonnaci")
+ 
